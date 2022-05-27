@@ -1,0 +1,49 @@
+.t-edit {
+    padding: 20px;
+    background-color: #fff;
+}
+.t-edit-p {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+}
+
+.t-button {
+    width: 150px;;
+}
+
+.t-selector {
+    width: 100%;
+    .t-selector-input{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        cursor: pointer;
+    }
+    .t-btn-input {
+        padding: 10px;
+    }
+
+    .t-selected-field {
+        cursor: pointer;
+    }
+    .t-selected-field:hover {
+        text-decoration: underline;
+    }
+}
+
+
+.t-dropdown {
+    .vgt-wrap {
+        padding-top: 5px;
+    }
+    .btn-plus {
+    }
+
+    .t-drop-form {
+        width: 98%;
+        margin: -5px auto;
+    }
+}
+
