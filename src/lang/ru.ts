@@ -81,6 +81,12 @@ const lang: ILang = {
   },
   Pages: {
     IndexCrm: {},
+    LoginP: {
+      title: 'Вход',
+      login: 'Логин',
+      pass: 'Пароль',
+      button: 'Войти',
+    },
   },
 };
 

@@ -11,7 +11,8 @@ $theme-colors: (
 @import "./crm/t-edit.scss";
 @import "./crm/main-page.scss";
 @import "./crm/t-modal.scss";
-@import "./crm//main-tpl.scss";
+@import "./crm/main-tpl.scss";
+@import "./crm/login-page.scss";
 
 body {
     background-color: rgb(246, 247, 251);

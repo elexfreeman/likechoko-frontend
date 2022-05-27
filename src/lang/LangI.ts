@@ -20,5 +20,11 @@ export interface ILang {
   Storehouse: ILangItem;
   Pages: {
     IndexCrm: any;
+    LoginP: {
+      title: string;
+      login: string;
+      pass: string;
+      button: string;
+    };
   };
 }

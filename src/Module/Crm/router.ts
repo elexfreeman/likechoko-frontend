@@ -1,5 +1,6 @@
 import VueRouter from 'vue-router';
 import MainP from './Pages/MainP.vue';
+import LoginP from './Pages/LoginP.vue';
 
 // модули
 import { route as aProductRoute } from '../Product/router';
@@ -14,6 +15,7 @@ import { route as aInventoryRoute } from '../Inventory/router';
 const aRoute = [
   // Главная
   { path: '/', name: 'MainP', component: MainP },
+  { path: '/login', name: 'LoginP', component: LoginP },
   ...aProductRoute,
   ...aProductCategoryRoute,
   ...aClientRoute,
