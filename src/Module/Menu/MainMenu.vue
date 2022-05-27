@@ -56,6 +56,6 @@
   </nav>
 </template>
 
-<script lang="ts" src="./Menu.ts" />
+<script lang="ts" src="./MainMenu.ts" />
 
 <style lang="scss"></style>

@@ -28,6 +28,8 @@ import { Component, Vue } from 'vue-property-decorator';
 import { config } from '../../Config';
 import { BaseModel } from '../Sys/BaseModel';
 
+import * as modConf from './Conf';
+
 import TEdit from '../Components/Edit/TEdit.vue';
 import { TableInfoLoader } from '../Sys/TableInfoLoader';
 import TEditPage from '../Components/TEditPage.vue';
@@ -41,8 +43,8 @@ export default class AddP extends Vue {
   // data
   private bIsLoad = false;
   private row: any = {};
-  private sCaption = 'Add client';
-  private sRoute = 'client';
+  private sCaption = modConf.lang.add.caption;
+  private sRoute = modConf.route;
 
   private errorParseS: ErrorParseS = new ErrorParseS({});
   // props
